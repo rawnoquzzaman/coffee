@@ -1,0 +1,1 @@
+ /home/zaman/Desktop/food/coffee_phase/.dart_tool/flutter_build/d5c365307790500d31a77be7718206aa/native_assets.yaml: 
