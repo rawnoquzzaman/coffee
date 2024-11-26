@@ -12,7 +12,7 @@ class _LoginState extends State<Login> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        child: Column(
+        child: Stack(
           children: [
             Container(
               width: MediaQuery.of(context).size.width,
@@ -25,6 +25,18 @@ class _LoginState extends State<Login> {
                 ),
               ),
             ),
+            Container(
+              margin:
+                  EdgeInsets.only(top: MediaQuery.of(context).size.height / 3),
+              height: MediaQuery.of(context).size.height,
+              width: MediaQuery.of(context).size.width,
+              decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(40),
+                      topRight: Radius.circular(40))),
+              child: Text("login"),
+            )
           ],
         ),
       ),
