@@ -35,7 +35,18 @@ class _LoginState extends State<Login> {
                   borderRadius: BorderRadius.only(
                       topLeft: Radius.circular(40),
                       topRight: Radius.circular(40))),
-              child: Text("login"),
+              child: Text(""),
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 60.0, left: 20.0, right: 20.0),
+              child: Column(
+                children: [
+                  Center(
+                    child: Image.asset(""),
+                    width: MediaQuery.of(context).size.width / 1.5,
+                  )
+                ],
+              ),
             )
           ],
         ),
